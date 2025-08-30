@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="static/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Login to Demo App Account</h1>
+      <form id="loginForm" class="card" onsubmit="return handleLogin(event)">
+        <div class="form-row">
+          <label for="username">Enter Username</label>
+          <input id="username" name="username" aria-label="username" required />
+        </div>
+
+        <div class="form-row">
+          <label for="password">Enter Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            aria-label="password"
+            required
+          />
+        </div>
+
+        <p id="error" class="error" hidden></p>
+
+        <div class="form-row">
+          <button id="loginBtn" type="submit">Submit</button>
+        </div>
+      </form>
+
+      <p class="hint">Valid credentials: <strong>admin / admin123</strong></p>
+    </main>
+
+    <script src="static/app.js"></script>
+  </body>
+</html>
