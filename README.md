@@ -18,7 +18,7 @@ You need to have Python and `pip` installed on your machine. We recommend using 
 
 ```bash
 # Clone the repository
-git clone https://github.com/Literally/selenium-test-bp.git
+git clone https://github.com/tarunsinghofficial/selenium-test-bp.git
 cd selenium-test-bp
 ```
 
